@@ -1,11 +1,12 @@
 @mixin title() {
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-  };
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 
 @mixin loader() {
-  &, &:after {
+  &,
+  &:after {
     border-radius: 50%;
     width: 10em;
     height: 10em;

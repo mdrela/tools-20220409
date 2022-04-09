@@ -1,7 +1,7 @@
-@import './mixin.scss';
+@import "./mixin.scss";
 $main-color: #689f38;
 $background-color: #f1f8e9;
-$loader-border: 1.1em solid rgba(104,159,56, 0.2);
+$loader-border: 1.1em solid rgba(104, 159, 56, 0.2);
 
 html,
 body,
@@ -19,7 +19,6 @@ h1 {
     padding: 1rem;
   }
 }
-
 
 .blog {
   display: flex;
@@ -64,7 +63,6 @@ h1 {
   }
 }
 
-
 .loader {
   @include loader;
 }
@@ -77,4 +75,3 @@ h1 {
     transform: rotate(360deg);
   }
 }
-
